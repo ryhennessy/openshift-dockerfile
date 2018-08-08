@@ -7,4 +7,4 @@ COPY index.html /var/www/html
 
 EXPOSE 80
 
-CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+CMD [""/usr/sbin/httpd, "-D", "FOREGROUND"]
