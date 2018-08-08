@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/rhel7:latest
 
 MAINTAINER This Crazy Dude
 
-RUN yum install httpd
+RUN yum -y install httpd
 COPY index.html /var/www/html
 
 EXPOSE 80
